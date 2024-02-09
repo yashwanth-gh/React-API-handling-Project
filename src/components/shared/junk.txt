@@ -1,0 +1,10 @@
+{countryArray.map((induvidualCountries:IndividualCountryProps) => (
+          <div
+            className="fles gap-1 px-2 py-2 bg-red-300 text-black"
+            key={induvidualCountries.name.common}
+          >
+            <img src={induvidualCountries.flags.png} alt={induvidualCountries.name.common} className="w-full" />
+            <h3 className="font-semi text-lg text-center">{induvidualCountries.name.common}</h3>
+            <p className="font-light text-sm text-center">{induvidualCountries.continents[0]}</p>
+          </div>
+        ))}

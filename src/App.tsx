@@ -1,4 +1,5 @@
 import react from 'react'
+import FlagCard from './components/shared/FlagCard'
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1>hi</h1>
+    <FlagCard/>
     </>
   )
 }
